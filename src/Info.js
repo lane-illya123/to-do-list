@@ -4,10 +4,7 @@ import NavBar from "./NavBar";
 function Info() {
   return (
     <div>
-      <header>
-        <NavBar />
-      </header>
-      <h3>Under Construction</h3>
+      <h1>Under Construction</h1>
     </div>
   );
 }

@@ -1,12 +1,20 @@
-.App {
+.App{
   display:flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   border: 2px solid blue;
   font-family: 'Times New Roman', Times, serif
-  
+}
 
+.nav-link{
+padding:40px;
+text-align: center;
+align-content: baseline;
+}
+
+.list-link{
+text-align: left;  
 }
 
 

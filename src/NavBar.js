@@ -13,12 +13,12 @@ function NavBar() {
       </NavLink>
       <NavLink
       to="/About"
-      ClassName="nav-link">
+      className="nav-link">
       About App
       </NavLink>
       <NavLink
       to="/Info"
-      ClassName="nav-link">
+      className="nav-link">
       More Info  
       </NavLink>
      

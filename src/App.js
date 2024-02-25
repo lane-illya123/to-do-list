@@ -8,8 +8,8 @@ import Info from "./Info"
 function App(){
     return(
         <BrowserRouter>
-        <header>
-          <NavBar />
+        <header className="nav-link">
+          <NavBar/>
         </header>
         <div>
           <Routes>

@@ -12,7 +12,7 @@ function Tasks({item, onDeleteTask}){
 
 
 return(
-<div>
+<div className="list-link">
     <h3>{item.id}</h3>
     <p>{item.task}</p>
     <button onClick={handleDeleteTask}>Delete Task</button>
