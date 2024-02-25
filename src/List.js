@@ -23,7 +23,7 @@ function List(){
   }
 
 return(
-  <div>
+  <div className="list-link">
       {task.map((item) => (
   <Tasks key={item.id} item={item} onDeleteTask={handleDeleteTask} />
 ))}
