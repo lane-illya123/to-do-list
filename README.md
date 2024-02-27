@@ -1,18 +1,22 @@
-# Getting Started with Create React App
+# App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## App components
 
-In the project directory, you can run:
+--App.js 
+    |
+    |--AboutApp.js
+    |-Info.js
+    |-NavBar.js
+    |List.js ---
+                | ListForm.js
+                |Tasks.js
+                
+### App Description
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This app is a To-do list that allow you to add new task. It have a delete button that aloows you to remove tasks.
+Also, there are two other routes that I will further expand on.
 
 ### `npm test`
 
